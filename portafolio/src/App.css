@@ -1,0 +1,84 @@
+.container-principar-section {
+  display: flex;
+  background-image: linear-gradient(to right, rgb(38, 37, 37) 70%, rgb(30, 170, 5) 30%);
+  height: 100vh;
+  justify-content: space-evenly;
+  gap: 50px;
+  align-items: center;
+}
+
+.title-description-contain {
+  max-width: 40%;
+  color: white;
+}
+
+.my-img-contain {
+  position: relative;
+}
+
+.my-img {
+  background-image: url('./assets/david9.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 400px;
+  width: 265px;
+  top: 76px;
+  right: 124px;
+  position: relative;
+}
+
+.circle-img {
+  display: flex;
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  top: 25px;
+  right: 134px;
+  z-index: 1;
+}
+
+.marco1{
+  width: 50%;
+  height: 100%;
+  border-top: 10px solid rgb(30, 170, 5);
+  border-left: 10px solid rgb(30, 170, 5);
+  border-bottom: 10px solid rgb(30, 170, 5);
+  z-index: 2;
+}
+
+.marco2{
+  width: 50%;
+  height: 100%;
+  border-top: 10px solid rgb(38, 37, 37);
+  border-right: 10px solid rgb(38, 37, 37);
+  border-bottom: 10px solid rgb(38, 37, 37);
+  z-index: 2;
+}
+
+
+
+
+@media (max-width: 400px) {
+  .container-principar-section {
+    display: block;
+  }
+  .title-description-contain {
+    max-width: 50%;
+    left: 7%;
+  }
+  .my-img {
+    height: 250px;
+    width: 250px;
+    bottom: 255px;
+    left: 140px;
+    position: relative;
+    z-index: 2;
+  }
+  .circle-img {
+    z-index: 1;
+  }
+  .container-description-2 {
+    max-width: 50%;
+    left: 7%;
+  }
+}
