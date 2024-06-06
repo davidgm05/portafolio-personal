@@ -1,6 +1,6 @@
 .container-principar-section {
   display: flex;
-  background-image: linear-gradient(to right, rgb(38, 37, 37) 70%, rgb(30, 170, 5) 30%);
+  background-image: linear-gradient(to right, rgb(38, 37, 37) 70%, rgb(30, 170, 5) 25%);
   height: 100vh;
   justify-content: space-evenly;
   gap: 50px;
@@ -23,7 +23,7 @@
   height: 400px;
   width: 265px;
   top: 76px;
-  right: 124px;
+  right: 164px;
   position: relative;
 }
 
@@ -33,7 +33,7 @@
   height: 300px;
   position: absolute;
   top: 25px;
-  right: 134px;
+  right: 175px;
   z-index: 1;
 }
 
@@ -43,6 +43,7 @@
   border-top: 10px solid rgb(30, 170, 5);
   border-left: 10px solid rgb(30, 170, 5);
   border-bottom: 10px solid rgb(30, 170, 5);
+  border-radius: 10px 0% 0% 10px;
   z-index: 2;
 }
 
@@ -52,10 +53,32 @@
   border-top: 10px solid rgb(38, 37, 37);
   border-right: 10px solid rgb(38, 37, 37);
   border-bottom: 10px solid rgb(38, 37, 37);
+  border-radius: 0% 10px 10px 0%;
   z-index: 2;
 }
 
 
+@media (max-width: 1660px) {
+
+  .circle-img {
+    right: 134px;
+  }
+  .my-img {
+    right: 124px;
+  }
+
+
+}
+
+
+@media (max-width: 1300px) {
+  .circle-img {
+    right: 110px;
+  }
+  .my-img {
+    right: 100px;
+  }
+}
 
 
 @media (max-width: 400px) {
