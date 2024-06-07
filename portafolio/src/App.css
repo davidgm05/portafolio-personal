@@ -22,7 +22,7 @@
   background-size: contain;
   height: 400px;
   width: 265px;
-  right: 165px;
+  right: 170px;
   position: relative;
 }
 
@@ -33,7 +33,7 @@
   height: 215px;
   position: absolute;
   top: 30px;
-  right: 180px;
+  right: 175px;
   z-index: 1;
 }
 
@@ -124,6 +124,15 @@
   top: 90px;
   rotate: -10deg;
   left: 30px;
+}
+
+@media (max-width: 1900px){
+  .circle-img {
+    right: 175px;
+  }
+  .my-img {
+    right: 160px;
+  }
 }
 
 
