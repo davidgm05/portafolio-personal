@@ -1,6 +1,6 @@
 .container-principar-section {
   display: flex;
-  background-image: linear-gradient(to right, rgb(38, 37, 37) 70%, rgb(30, 170, 5) 25%);
+  background-image: linear-gradient(to right, #023535 70%, #0DFFB4 25%);
   height: 100vh;
   justify-content: space-evenly;
   gap: 50px;
@@ -22,27 +22,42 @@
   background-size: contain;
   height: 400px;
   width: 265px;
-  top: 76px;
-  right: 164px;
+  right: 165px;
   position: relative;
 }
 
+
 .circle-img {
   display: flex;
-  width: 250px;
-  height: 300px;
+  width: 245px;
+  height: 215px;
   position: absolute;
-  top: 25px;
-  right: 175px;
+  top: 30px;
+  right: 180px;
   z-index: 1;
+}
+
+.david{
+  color: #0DFFB4;
+  font-size: 60px;
+}
+
+.desarrollador{
+  color: #0DFFB4;
+  font-size: 60px;
+}
+
+.descargar-cv{
+  color: rgb(244, 244, 244);
+  background-color: #0DFFB4;
 }
 
 .marco1{
   width: 50%;
   height: 100%;
-  border-top: 10px solid rgb(30, 170, 5);
-  border-left: 10px solid rgb(30, 170, 5);
-  border-bottom: 10px solid rgb(30, 170, 5);
+  border-top: 10px solid #0DFFB4;
+  border-left: 10px solid #0DFFB4;
+  border-bottom: 10px solid #0DFFB4;
   border-radius: 10px 0% 0% 10px;
   z-index: 2;
 }
@@ -50,21 +65,75 @@
 .marco2{
   width: 50%;
   height: 100%;
-  border-top: 10px solid rgb(38, 37, 37);
-  border-right: 10px solid rgb(38, 37, 37);
-  border-bottom: 10px solid rgb(38, 37, 37);
+  border-top: 10px solid #023535;
+  border-right: 10px solid #023535;
+  border-bottom: 10px solid #023535;
   border-radius: 0% 10px 10px 0%;
   z-index: 2;
+}
+
+.logo-html{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 160px;
+  rotate: -45deg;
+  left: 30px;
+}
+
+.logo-react{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 70px;
+  left: 0px;
+}
+
+.logo-css{
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top: 160px;
+  rotate: 45deg;
+  top: 160px;
+  left: 100px;
+}
+
+.logo-js{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 40px;
+  rotate: -45deg;
+  left: 70px;
+}
+
+.logo-node{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 110px;
+  rotate: 20deg;
+  left: -90px;
+}
+
+.logo-mongo{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 90px;
+  rotate: -10deg;
+  left: 30px;
 }
 
 
 @media (max-width: 1660px) {
 
   .circle-img {
-    right: 134px;
+    right: 135px;
   }
   .my-img {
-    right: 124px;
+    right: 120px;
   }
 
 
