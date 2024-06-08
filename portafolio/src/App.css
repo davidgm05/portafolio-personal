@@ -22,7 +22,7 @@
   background-size: contain;
   height: 400px;
   width: 265px;
-  right: 165px;
+  right: 170px;
   position: relative;
 }
 
@@ -33,7 +33,7 @@
   height: 215px;
   position: absolute;
   top: 30px;
-  right: 180px;
+  right: 179px;
   z-index: 1;
 }
 
@@ -197,7 +197,7 @@
     right: 10px;
   }
   .my-img  {
-    right: 100px;
+    right: 110px;
   }
   .descargar-cv{
     right: 40px;
