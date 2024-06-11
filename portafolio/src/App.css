@@ -1,7 +1,7 @@
 .container-principar-section {
   display: flex;
   background-image: linear-gradient(to right, #023535 70%, #0DFFB4 25%);
-  height: 100vh;
+  height: 650px;
   justify-content: space-evenly;
   gap: 50px;
   align-items: center;
@@ -25,6 +25,8 @@
   right: 170px;
   position: relative;
 }
+
+
 
 
 .circle-img {
@@ -74,7 +76,13 @@
   color: white;
   top: -80px;
   right: 100px;
-  background-image: linear-gradient(to right, #0DFFB4 50%,  #023535 50%);
+  background-color: #023535;
+  border:7px solid #0DFFB4;
+}
+
+.linkedin{
+  width: 30px;
+  height: 30px;
 }
 
 .container-buttom-img{
@@ -138,6 +146,175 @@
   rotate: -10deg;
   left: 30px;
 }
+
+.container-buttons{
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.container-buttons svg{
+  width: 40px;
+  height: 40px;
+}
+
+
+.my-info-section {
+  background-color: #023535;
+  height: 60vh;
+  position: relative;
+  width: 100%;
+}
+
+.model-3d {
+  height: 350px;
+  padding-left: 190px;
+  position: relative;
+}
+
+.container-my-info {
+  position: absolute;
+  display: block;
+  top: 20px; 
+  left: 210px; 
+  z-index: 6; 
+  color: white; 
+}
+
+.title-info-section {
+  font-size: 2rem; 
+  margin: 0;
+}
+
+.title-info-section b{
+  color: #0DFFB4;
+  font-size: 35px;
+}
+
+.container-icon-david-my-info{
+  padding-top: 50px;
+  display: flex;
+}
+
+.icon-david {
+  background-image: url("./assets/davidIcon.png");
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 4px solid #0DFFB4;
+  border-radius: 50%;
+}
+
+
+.text-my-info{
+  width: 1000px;
+  margin-left: 100px;
+  padding: 0px 10px;
+  border: 5px solid #0DFFB4;
+  border-radius: 3px 10px 3px 10px;
+  padding-top: 10px;
+  position: relative;
+  padding-bottom: 10px;
+  bottom: 10px;
+}
+
+.container-tecnology{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1000px;
+  margin-left: 113px;
+  border: 4px solid #0DFFB4;
+  border-radius: 10px;
+}
+
+.icon-html{
+  background-image: url("./assets/html-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-css{
+  background-image: url("./assets/icon-css.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-js{
+  background-image: url("./assets/icon-js.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-node{
+  background-image: url("./assets/icon-node.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 7px;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-react{
+  background-image: url("./assets/icon-react.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-vite{
+  background-image: url("./assets/vite.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-mongo{
+  background-image: url("./assets/icon-mongo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: 25px;
+}
+
+.icon-sql{
+  background-image: url("./assets/icon-sql.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-sass{
+  background-image: url("./assets/icon-sass.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-bootstrap{
+  background-image: url("./assets/icon-bootstrap.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
 
 @media (max-width: 1930px) {
 
@@ -241,6 +418,7 @@
 }
 
 
+
 @media (max-width: 828px) {
   .container-principar-section {
     display: block;
@@ -253,7 +431,7 @@
   .my-img {
     height: 230px;
     width: 230px;
-    bottom: 254px;
+    bottom: 270px;
     left: 185px;
     position: relative;
     z-index: 2;
@@ -271,11 +449,25 @@
   .descargar-cv{
     width: 215px;;
     left: 190px;
-    top: -260px;
-    background-image: linear-gradient(to right, #0DFFB4 60%,  #023535 40%);
+    top: -275px;
+    background-image: linear-gradient(to right,#023535 );
     
   }
 }
+
+  @media (max-width: 560px) {
+    .david{
+      font-size: 40px;
+    }
+    
+    .desarrollador{     
+      font-size: 40px;
+    }
+
+    .title-description-contain h1{
+      font-size: 30px;
+    }
+  }
   @media (max-width: 430px) {
     .descargar-cv{
       left: 170px;
