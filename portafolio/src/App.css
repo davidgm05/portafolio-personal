@@ -194,6 +194,10 @@
 .container-icon-david-my-info{
   padding-top: 50px;
   display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 165px;
+  left: 80px;
 }
 
 .icon-david {
@@ -201,7 +205,8 @@
   width: 150px;
   height: 150px;
   position: relative;
-  top: 30px;
+  top: 180px;
+  right: 80px;
   background-repeat: no-repeat;
   background-size: cover;
   border: 4px solid #0DFFB4;
@@ -217,12 +222,11 @@
   border-radius: 3px 10px 3px 10px;
   padding-top: 10px;
   position: relative;
-  padding-bottom: 10px;
-  bottom: 10px;
 }
 
 .container-tecnology{
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
   width: 1000px;
@@ -453,6 +457,50 @@
     background-image: linear-gradient(to right,#023535 );
     
   }
+  .container-icon-david-my-info{
+    right: 100px;
+    
+
+}
+  .text-my-info{
+    width: 55vw;
+    height: 35vh;
+    font-size: 13px;
+    right: 320px;
+    top: 130px;
+    padding-bottom: 10px;
+  }
+  .title-info-section{
+    position: relative;
+    right: 190px;
+  }
+  .model-3d{
+    width: 0px;
+    height: 0px;
+    padding-left: 127px;
+  }
+  .icon-david{
+   position: relative;
+   right: 125px;
+   top: 120px;
+   width: 55px;
+   height: 55px;
+  }
+.my-info-section{
+  height: 900px;
+}
+.container-tecnology{
+  position: relative;
+  top: 200px;
+  padding-top: 10px;
+  padding-left: 10px;
+  right: 345px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+  gap: 20px; /* Espacio entre los elementos */
+  width: 250px;
+}
+
 }
 
   @media (max-width: 560px) {
