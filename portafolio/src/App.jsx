@@ -162,7 +162,7 @@ export default function App() {
 
    
       <p className='project-description'>
-        ZODDAK es una plataforma innovadora diseñada para gestionar tareas y colaborar en equipo con características avanzadas de inteligencia artificial.
+        ZODDAK es una herramienta que hemos creado para una inmobiliaria que ayuda a comparar la vivienda que quieres compara con viviendas que tienen sus mismas caracteristicas.
       </p>
       </div>
      
@@ -209,8 +209,8 @@ export default function App() {
     </div>
      
       <p className='project-description'>
-        NEXIAD es una aplicación web diseñada para optimizar los procesos de ventas y mejorar la interacción con el cliente a través de un análisis de datos avanzado.
-      </p>
+        NEXIAD es un panel administrativo util para modelos de negocios que utilicen subscripciones, puedes gestionar todo lo necesario para el negocio en el panel.
+        </p>
     </div>
     </div>
   </div>
