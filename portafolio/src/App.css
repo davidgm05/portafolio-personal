@@ -1,3 +1,5 @@
+
+
 .container-principar-section {
   display: flex;
   background-image: linear-gradient(to right, #023535 70%, #0DFFB4 25%);
@@ -160,7 +162,7 @@
 
 
 .my-info-section {
-  background-color: #023535;
+  background-color: #605E5E;
   height: 60vh;
   position: relative;
   width: 100%;
@@ -318,6 +320,27 @@
   width: 50px;
   height: 50px;
 }
+
+/* .proyecto-zoddak{
+  background-image: url("./assets/proyecto-zoddak.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+}
+.proyecto-nexiad{
+  background-image: url("./assets/proyecto-nexiad-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+}
+.proyectos-destacados{
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+} */
 
 
 @media (max-width: 1930px) {
@@ -564,4 +587,533 @@
       left: 135px;
     }
   }
+
+
+
+
+
+
+
+
+  /* Estilos para el contenedor principal */
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #605E5E;
+}
+
+/* Estilos para el componente Spline */
+.spline {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Estilos para el encabezado */
+.main-heading {
+  position: absolute;
+  top: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Estilos para cada parte del texto del encabezado */
+
+/* Estilos para el contenedor principal */
+.container {
+  width: 100%;
+  height: 100%; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #605E5E;
+}
+
+/* Estilos para el componente Spline */
+.spline {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Estilos para los encabezados en pantallas grandes */
+.me_llamo {
+  font-family: "Bebas Neue";
+  font-weight: 900;
+  position: absolute;
+  left: 120px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.soy {
+  font-family: "Bebas Neue";
+  font-weight: 900;
+  position: absolute;
+  right: 120px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+/* Estilos de texto */
+.text-normal {
+  font-size: 60px;
+  
+}
+.text-normal-2 {
+  font-size: 60px;
+  text-align: end;
+}
+
+.text-highlight {
+  color: #0DFFB4;
+  font-size: 1.2em;
+  margin: 0 0.5rem;
+  font-size: 80px;
+}
+
+.text-bold {
+  font-weight: bold;
+  color: #0DFFB4;
+  font-size: 1.2em;
+  margin: 0 0.5rem;
+  font-size: 80px;
+}
+
+.contain-buttons{
+  position: absolute;
+  top: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+
+.github{
+  width: 60px;
+  height: 60px;
+}
+
+.linkedin{
+  width: 60px;
+  height: 60px;
+}
+
+.descargarcv{
+color: #023535;
+background-color: #0DFFB4;
+font-weight: 900;
+font-size: 20px;
+
+}
+
+.imagen-david-text{
+background-color: #605E5E;
+display: flex;
+gap: 100px;
+align-items: center;
+}
+
+.quien-soy{
+  max-width: 50%;
+  border: 7px solid #0DFFB4;
+  padding: 20px;
+  border-radius: 40px;
+  color: #0DFFB4;
+}
+
+.img{
+  margin-left: 15vw;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 300px;
+  background-image: url("./assets/img-david-5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 7px solid #0DFFB4;
+  border-radius: 40px;
+}
+
+.contian-my-info{
+  background-color: #605E5E;
+  height: 60vh;
+}
+
+.proyectos-destacados-title{
+  background-color: #605E5E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.proyectos{
+  font-family: "Bebas Neue";
+  font-weight: 900;
+  font-size: 60px;
+  color: #0DFFB4;
+}
+
+.name-proyect{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue";
+  font-weight: 900;
+  font-size: 35px;
+  gap: 10px;
+  
+}
+.name-proyect span{
+  color: #0DFFB4;
+  font-size: 38px;
+}
+
+.destacados{
+  color: #0DFFB4;
+}
+
+.proyectos-destacados{
+  background-color: #605E5E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.proyecto-zoddak{
+  background-image: url("./assets/proyecto-zoddak-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 750px;
+  height: 750px;
+}
+.proyecto-nexiad{
+  
+  background-image: url("./assets/proyecto-nexiad-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 750px;
+  height: 750px;
+  
+}
+
+
+.proyect-card,
+.proyect-card-2 {
+  display: none;
+  width: 400px;
+  height: 550px;
+  background-color: #0dffb2cb; 
+  border-radius: 15px;
+}
+
+
+.proyecto-zoddak:hover .proyect-card {
+  display: block;
+  position: relative;
+  left: 150px;
+  top: -150px;
+}
+
+.zoddak-img-card{
+  background-image: url("./assets/img-zoddak-3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+}
+.nexiad-img-card{
+  background-image: url("./assets/img-nexiad-3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+}
+
+.nexid-card-text{
+  position: relative;
+  top: -180px;
+  left: 60px;
+  width: 300px;
+}
+.zoddak-card-text{
+  position: relative;
+  top: -180px;
+  left: 60px;
+  width: 300px;
+}
+
+.proyecto-nexiad:hover .proyect-card-2 {
+  display: block;
+  position: relative;
+  left: 150px;
+  top: -150px;
+}
+
+.html-logo{
+  background-image: url("./assets/html-logo.svg")
+}
+
+.container-form{
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #605E5E;
+  position: relative;
+  top: -170px;
+}
+
+.container-form h2{
+  font-size: 60px;
+  font-family: "Bebas Neue";
+  font-weight: 900;
+  color: #0DFFB4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #605E5E;
+}
+
+.input-field, .textarea-field {
+  width: 500px;
+  padding: 13px;
+  background-color: transparent;
+  border: 3px solid #0DFFB4;
+  color: #0DFFB4;
+  border-radius: 4px; /* Optional, for rounded corners */
+}
+
+.textarea-field {
+  height: 900px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #0DFFB4;
+  opacity: 1; /* Ensure the placeholder color is fully opaque */
+}
+
+.button-contact{
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 3px solid #0DFFB4;
+  color: #0DFFB4;
+}
+
+
+
+
+
+
+/* Animación de deslizamiento desde la izquierda */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Animación de deslizamiento desde la derecha */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Clase para animación de imagen desde la izquierda */
+.animated-image-left {
+  animation: slideInFromLeft 1s ease-out forwards;
+}
+
+/* Clase para animación de texto desde la derecha */
+.animated-text-right {
+  animation: slideInFromRight 1s ease-out forwards;
+}
+
+@keyframes slideInUp {
+  0% {
+    transform: translateY(100px); /* Start 100px below */
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0); /* Move to original position */
+    opacity: 1;
+  }
+}
+
+/* Class to trigger the upward animation */
+.animated-up {
+  animation: slideInUp 1s ease-out forwards;
+}
+
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .main-heading {
+    display: flex;
+    flex-direction: column; /* Cambiar a columna para dispositivos móviles */
+    align-items: center; /* Centra el contenido horizontalmente */
+    justify-content: center;
+    background-color: #605E5E;
+    top: 58vh;
+    /* Ajusta la posición relativa para el centrado */
+  }
+
+  .me_llamo,
+  .soy {
+    font-size: 50px;
+    position: static; /* Resetea la posición absoluta en dispositivos móviles */
+    display: flex; /* Muestra en bloque en dispositivos móviles */
+    flex-direction: column;
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio inferior para separar las secciones */
+    font-size: 35px;
+    text-align: start;
+  }
+
+  .flex-span {
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho en dispositivos móviles */
+    position: static; /* Resetea la posición absoluta */
+    top: auto; /* Resetea la propiedad top */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+  }
+  .text-bold{
+    font-size: 60px;
+    
+  }
+  .text-highlight{
+    font-size: 60px;
+  }
+  .text-normal-2 {
+    text-align: start;
+    font-size: 40px;
+  }
+  .text-normal{
+    font-size: 40px;
+  }
+  .contain-buttons{
+    background-color: #605E5E;
+    height: 20vh;
+    width: 100vw;
+    top: 98vh;
+    margin-bottom: 40px;
+  }
+  .contian-my-info{
+    background-color: #605E5E;
+  }
+  .imagen-david-text{
+    flex-direction: column;
+    margin-top: 130px;
+    padding-top: 30px;
+    gap: 20px;
+  }
+  .img{
+    margin-left: 0vw;
+  }
+  .quien-soy{
+    font-size: 10px;
+    max-width: 65%;
+    margin-bottom: 400px;
+  }
+  .proyectos-destacados{
+   margin-top: 20px;
+   background-color: #605E5E;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+  .proyecto-zoddak{
+    width: 300px;
+    height: 300px;
+  }
+  .proyecto-nexiad{
+    width: 300px;
+    height: 300px;
+  }
+  .proyectos-destacados-title{
+    margin-top: 400px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .proyectos{
+    font-size: 40px;
+  }
+  .name-proyect{
+    position: relative;
+    top: -30px;
+  }
+  .proyect-card,
+.proyect-card-2 {
+  display: none;
+  width: 300px;
+  height: 300px;
+}
+.proyecto-nexiad:hover .proyect-card-2 {
+  left: 0px;
+  top: -150px;
+}
+.proyecto-zoddak:hover .proyect-card {
+  left: 0px;
+  top: -150px;
+}
+.nexiad-img-card{
+  background-image: url();
+}
+.zoddak-img-card{
+  background-image: url();
+ 
+}
+.nexid-card-text{
+  font-size: 14px;
+  font-weight: 900;
+  width: 200px;
+  max-height: 300px;
+  top: -400px;
+  left: 50px;
+
+}
+.zoddak-card-text{
+  font-size: 14px;
+  font-weight: 900;
+  width: 200px;
+  max-height: 300px;
+  top: -400px;
+  left: 50px;
+}
+.input-field, .textarea-field {
+  width: 250px;
+}
+}
+
+
+
 
